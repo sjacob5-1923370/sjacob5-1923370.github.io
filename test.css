@@ -1,5 +1,5 @@
 #Header {
-	border: solid 20px black;
+	border: dashed 20px #b7a57a;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -11,6 +11,7 @@
 	color: #4b2e83;
 	font-weight: bold;
 	font-family: "Passion One";
+	color: #4b2e83;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 p {
-	color: white;
+	color: black;
 	font-family: "Arial"
 	font-weight: bold;
 }
@@ -34,6 +35,7 @@ h3 {
 	border: solid 8px black;
 	text-align: center;
 	float: left;
+	color: black;
 }
 
 #Content {
@@ -45,9 +47,12 @@ h3 {
 	border: solid 8px black;
 	text-align: center;
 	float: left;
+	color: black;
 }
 
 #Footer {
 	text-align: center;
 	border: solid 8px black;
+	margin-left: auto;
+	margin-right: auto;
 }
