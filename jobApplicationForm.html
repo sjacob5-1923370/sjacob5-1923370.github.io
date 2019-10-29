@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Job Application For Alex Burner</title>
+	</head>
+
+<body>
+
+	<form name="input" action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Personal Information</legend>
+
+		First Name:
+		<input type="text" name="firstname"><br>
+		Last name:
+		<input type="text" name="lastname"><br>
+		Middle Initial:
+		<input type="text" name="middleinitial" maxlength="1"><br>
+		Street Address:
+		<input type="text" name="steetaddress"><br>
+		ZIP Code:
+		<input type="text" name="zipcode" maxlength="5"><br>
+		
+		<div class="field">
+			<label>How did you hear from us?</label> 
+			<select name="state">
+				<option value="" selected="true">Choose a reference</option>
+				<option value="email">Email</option>
+				<option value="newspaperad">Newspaper Ad</option>
+				<option value="friend">Friend</option>
+				<option value="familymember">Family Member</option>
+			</select>
+
+			<input type="checkbox" name="op4" value="Other">Other
+				<input type="text" name="Other"><br>
+		</div>	
+	</fieldset>
+
+	<p> </p>
+
+	<fieldset>
+		<legend>Availability</legend>
+
+		<label>Type of Availability</label>
+			<ul>
+				<li><input type="radio" name="answer" value="parttime">Part time</li>
+				<li><input type="radio" name="answer" value="fulltime">Full time</li>
+			</ul><br>
+			
+		<label>How often?</label>
+			<ul>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+
+	</fieldset>
+
+<p> </p>
+
+	<fieldset>
+		<legend style="color: blue"> Personal Statement </legend>
+		<div class="field">
+			<label>What made you apply for this job?</label><br>
+			<textarea name="question1" rows="6" cols="60"></textarea>
+		</div><br>
+		<div class="field">
+			<label>What do you know about the company?</label><br>
+			<textarea name="question2" rows="6" cols="50"></textarea>
+		</div><br>
+		<div class="field">
+			<label>Describe customer service. What does it mean to you? </label><br>
+			<textarea name="question3" rows="10" cols="100"></textarea>
+		</div>
+	</fieldset>
+
+
+	<input type="submit" value="submit">
+
+	</form>
+
+
+</body>
+</html>
